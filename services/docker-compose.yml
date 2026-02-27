@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+
+  scraper:
+    build: ./services/scraper
+    container_name: scraper_service
+
+  cleaning:
+    build: ./services/cleaning
+    container_name: cleaning_service
+
+  sentiment:
+    build: ./services/sentiment
+    container_name: sentiment_service
+
+  api:
+    build: ./services/api
+    container_name: api_service
+    ports:
+      - "8000:8000"
+    depends_on:
+      - scraper
+      - cleaning
+      - sentiment
+
+  streamlit:
+    build: ./services/streamlit
+    container_name: streamlit_service
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api

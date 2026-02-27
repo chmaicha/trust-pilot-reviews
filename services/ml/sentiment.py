@@ -233,6 +233,29 @@ def run_sentiment(name: str, plot: bool = True):
     combined_reviews.reset_index(drop=True, inplace=True)
     combined_reviews.to_csv(sample_file_path, index=False)
 
+    # ===============================
+    # LLM Insights
+    # ===============================
+    client = llm_insights.initChatGPTClient()
+
+    general_prompt = "... SAME PROMPT AS YOUR ORIGINAL ..."
+    general_insights = llm_insights.extractInsightsWithLLM(
+        reviews_summary_dict, general_prompt, client
+    )
+
+    general_json_path = processed_data_path + name + '_general_insights.json'
+    with open(general_json_path, 'w') as f:
+        json.dump(general_insights, f, indent=4)
+
+    worst_prompt = "... SAME PROMPT AS YOUR ORIGINAL ..."
+    worst_insights = llm_insights.extractInsightsWithLLM(
+        negative_periods_topics, worst_prompt, client
+    )
+
+    worst_json_path = processed_data_path + name + '_worst_periods_insights.json'
+    with open(worst_json_path, 'w') as f:
+        json.dump(worst_insights, f, indent=4)
+
     return {
         "ml_file": ml_file_path,
         "samples_file": sample_file_path,

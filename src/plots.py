@@ -172,7 +172,7 @@ def plotSentimentTrend(df, years_limit = 2, app = False):
     df.set_index('date', inplace=True)
     
     # Resample to monthly and count sentiments
-    sentiment_counts = df.resample('M')['sentiment_label'].value_counts().unstack().fillna(0)
+    sentiment_counts = df.resample('ME')['sentiment_label'].value_counts().unstack().fillna(0)
 
     # Calculate the percentage for each sentiment type
     sentiment_percentage = sentiment_counts.div(sentiment_counts.sum(axis=1), axis=0) * 100

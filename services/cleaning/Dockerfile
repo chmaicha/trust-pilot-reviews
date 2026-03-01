@@ -2,14 +2,14 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
+# Install requirements
 COPY services/cleaning/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-RUN python -m nltk.downloader stopwords
-
+# Copy full src (business logic)
 COPY src/ ./src
 
-RUN mkdir -p /app/data/raw
-RUN mkdir -p /app/data/processed
+# Copy API wrapper
+COPY services/cleaning/main.py .
 
-ENTRYPOINT ["python", "src/run_cleaning.py"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

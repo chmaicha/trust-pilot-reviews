@@ -93,7 +93,7 @@ docker run -v ${PWD}/data:/app/data scraper-service  "https://www.google.com/map
 
 
 This command will:
-- Scrape reviews from the provided Google Maps URL.
+- Scrape reviews from the provided Goofesire info.gle Maps URL.
 - Store the raw review data in `collected_hd.csv` located in the `data/raw/` directory.
 - Additionally, it will store the star rating summary in `resume_hd.csv` in the same folder.
 

@@ -1,3 +1,6 @@
 pandas
 nltk
 spacy
+fastapi
+uvicorn[standard]
+requests

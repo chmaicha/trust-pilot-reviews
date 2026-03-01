@@ -2,3 +2,6 @@ streamlit
 requests
 plotly
 pandas
+fastapi
+uvicorn[standard]
+requests

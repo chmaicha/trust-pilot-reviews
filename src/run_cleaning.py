@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-import cleaning
+from src import cleaning
 
 
 # ==========================================================

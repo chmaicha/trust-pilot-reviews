@@ -1,336 +1,110 @@
 review_id,review,local_guide_reviews,rating_score,service,meal_type,price_per_person_category,food_score,service_score,atmosphere_score,recommendations_list,date,avg_price_per_person
-0,J'adore venir ici. Une expérience typiquement parisienne. Le chocolat chaud avec crème c’est la spécialité. Je recommande le croque-monsieur et la salade d'artichauts. Quartier magnifique.,21,4,,,,4.0,5.0,5.0,[''],2026-01-01,
-1,"Je suis allée dans ce café vers 16h. Il y avait pas mal de monde, aussi bien en terrasse qu’à l’intérieur. J’ai attendu environ cinq minutes à l’entrée avant que le personnel m’accueille et me trouve une place. J’étais installée dans la terrasse intérieure, un espace agréable. L’endroit est très prisé par les touristes, ce qui explique des prix assez élevés, j’ai payé 5,50€ pour un expresso. Le monsieur qui m’a accueilli et servi était très sympathique, et le personnel en général s’est montré réactif malgré l’affluence.",475,4,,,,4.0,4.0,5.0,[''],2026-02-02,
+0,J'adore venir ici. Une expérience typiquement parisienne. Le chocolat chaud avec crème c’est la spécialité. Je recommande le croque-monsieur et la salade d'artichauts. Quartier magnifique.,26,4,,,,,,,[''],2026-02-01,
+1,"Je suis allée dans ce café vers 16h. Il y avait pas mal de monde, aussi bien en terrasse qu’à l’intérieur. J’ai attendu environ cinq minutes à l’entrée avant que le personnel m’accueille et me trouve une place. J’étais installée dans la …",475,4,,,,,,,[''],2026-02-01,
 2,"Bar / snacking / restauration situé en plein coeur de Paris à Saint Germain.
-Si le cadre est sympa et original, les prix pour un touriste lambda sont dissuasifs : 5€50 le café, 8€50 une limonade....etc.
-Le service, le cadre et le personnel se paient c'est normal, mais le rapport qualité prix n'est pas au rdv pour moi.
-Mais ce n'est que l'avis d'un touriste.",129,3,,,,,5.0,3.0,[''],2025-11-01,
-3,"Le café de Flore, est un lieu mythique. Une ambiance très parisienne sur le boulevard Saint Germain des Prés. La cuisine est délicieuse. Moment agréable et convivial.
-Le service impeccable.",16,4,,,,5.0,5.0,4.0,[''],2025-10-01,
-4,"Wir haben 5 mal hier gefrühstückt und hatten immer sehr nette und hilfsbereite Servicekräfte an unserer Seite. Ein ruhiges Plätzchen findet sich eher unter der Woche❣️Herzlichen Dank
-Nous avons pris le petit déjeuner ici 5 fois et avons toujours eu un personnel de service très gentil et serviable à nos côtés. Un endroit calme se trouve plutôt en semaine❣️Merci beaucoup",12,5,,,,4.0,5.0,4.0,[''],2025-11-01,
-5,nous étions un petit groupe d'amies en virée parisienne et voulions boire dans un lieu chargé d'histoire. nous avons été très bien accueilli par Vanessa la placeuse avec beaucoup d'humour (nous étions 10...)merci encore . Puis servi par Gael un serveur charmant efficace qui nous a permis d'apprécier cette pause chocolat spécialité de la maison. on a passé un bon moment. je recommande,4,5,,,,,5.0,5.0,[''],2026-02-09,
-6,"Passage incontournable au Café de Flore ! L’endroit est mythique et chargé d’histoire, on s’y imprègne immédiatement de l’atmosphère parisienne. La terrasse est parfaite pour observer la vie du quartier, et l’intérieur a ce charme intemporel qui fait tout son prestige. Le service est professionnel et attentif, et les classiques sont toujours bien réalisés. Que ce soit pour un café, un brunch ou un verre en fin de journée, c’est une expérience parisienne à vivre au moins une fois.",3,5,,,,5.0,5.0,5.0,[''],2026-02-02,
-7,"Au cœur de Paris, le Café de Flore est une véritable invitation au plaisir et à la gourmandise.
-L’ambiance y est accueillante, chaleureuse et pleine de charme, idéale pour un moment hors du temps.
-Que ce soit pour un café, un petit-déjeuner ou une pause gourmande, chaque bouchée est délicieuse et soigneusement préparée.
-Un lieu mythique où l’on se sent bien, à recommander sans hésiter pour savourer Paris dans ce qu’il a de plus authentique ☕✨",2,5,,,,5.0,5.0,5.0,[''],2026-02-02,
-8,"J'ai savouré chaque instant passé sur la terrasse du Café de Flore. Le service, attentionné et chaleureux, était loin d'être mécanique. J'ai particulièrement apprécié le soin apporté au dressage de la table, ces petits détails qui signent une grande maison. La fraîcheur des produits était indéniable, notamment dans la délicieuse tarte aux fraises, le chocolat chaud intense et la tisane à la camomille bio.",148,4,,,,4.0,5.0,5.0,[''],2025-07-01,
+Si le cadre est sympa et original, les prix pour un touriste lambda sont dissuasifs : 5€50 le café, 8€50 une limonade....etc. …",129,3,,,,,,,[''],2025-12-01,
+3,"Lieu emblématique de Paris, à la décoration très traditionnelle qui en fait son charme.
+Par contre j’étais venu pour le chocolat chaud, classé comme un des meilleurs de …",194,2,,,,,,,[''],2025-12-01,
+4,"Le café de Flore, est un lieu mythique. Une ambiance très parisienne sur le boulevard Saint Germain des Prés. La cuisine est délicieuse. Moment agréable et convivial.
+Le service impeccable.",16,4,,,,,,,[''],2025-11-01,
+5,Wir haben 5 mal hier gefrühstückt und hatten immer sehr nette und hilfsbereite Servicekräfte an unserer Seite. Ein ruhiges Plätzchen findet sich eher unter der Woche❣️Herzlichen Dank …,12,5,,,,,,,[''],2025-11-01,
+6,nous étions un petit groupe d'amies en virée parisienne et voulions boire dans un lieu chargé d'histoire. nous avons été très bien accueilli par Vanessa la placeuse avec beaucoup d'humour (nous étions 10...)merci encore . Puis servi par …,4,5,,,,,,,[''],2026-02-02,
+7,"Passage incontournable au Café de Flore ! L’endroit est mythique et chargé d’histoire, on s’y imprègne immédiatement de l’atmosphère parisienne. La terrasse est parfaite pour observer la vie du quartier, et l’intérieur a ce charme …",3,5,,,,,,,[''],2026-02-02,
+8,"J'ai savouré chaque instant passé sur la terrasse du Café de Flore. Le service, attentionné et chaleureux, était loin d'être mécanique. J'ai particulièrement apprécié le soin apporté au dressage de la table, ces petits détails qui signent …",148,4,,,,,,,[''],2025-07-01,
 9,"C’est toute la contradiction de notre société :
 on paie pour revivre un fantasme ou fantôme.
-On paie pour s’asseoir là où les poètes buvaient des cafés noirs, où les artistes se perdaient en discussions sans fin, où la bohème et l’impertinence formaient un bouillonnement vivant.
-Aujourd’hui, chaque chaise est calibrée, chaque tasse facturée à prix d’or, chaque sourire poli mesure le rendement plutôt que la curiosité ou la liberté.
-Quelle farce !
-
-On paie pour le mythe, pour l’illusion d’une époque où la vie intellectuelle et créative régnait sur Saint-Germain-des-Prés avec trois fois rien.
-Mais la réalité est froide, aseptisée, impersonnelle. L’art s’y respire comme un parfum de musée, la culture s’y contemple comme un objet de luxe.
-
-Un petit café à 5,50 €, un soda américain à 9 €… et l’on se dit que la bohème a un prix, et que ce prix, c’est le grand capital.
-
-Le Flore n’est plus un refuge, il est une vitrine : on y admire un passé mythique comme on admire un tableau encadré.
-On y paie pour l’image, pour le prestige, pour le luxe tranquille et la photo sur les internets, mais jamais pour la vie et le lien humain.
-
-Et dans cette contradiction, le charme de la Rive Gauche d’antan se transforme en ironie glaçante : ce que l’on cherchait à revivre n’existe plus, sinon derrière des vitrines glacées et des additions salées.
-
-Make America Great Again !
-
-Beaucoup doivent se marrer de la haut en nous voyant évoluer…",93,2,,,,3.0,3.0,3.0,[''],2026-01-01,
-10,"Franchement ça reste top cool comme endroit le Café de Flore. Même si y a la queue, meme si c’est super touristique ça reste une institution avec tous les écrivains les gens de lettres qui y sont passés. La clientèle est classe, les gens sont beaux. Le garçon était sympa même s’il était très fatigué. Nos cafés étaient bons comme les profiteroles au chocolat. On y reviendra.",190,5,,,,5.0,5.0,5.0,[''],2025-04-01,
-11,"Merci à la serveuse qui a été aimable avec nous, en revanche, pour un serveur, la convivialité et la serviabilité n’était pas présente Nous avons déplacé un cendrier car il nous gênait et vu qu’on est non-fumeur le monsieur l’a mis sur un tabouret à côté de nous et a soufflé ni bonjour ni au revoir ni bon appétit qui est primordial dans un restaurant. Sinon niveau nourriture rien à redire le prix reste raisonnable, et la nourriture est très copieuse",4,4,,,,5.0,1.0,3.0,[''],2025-07-01,
+On paie pour s’asseoir là où les poètes buvaient des cafés noirs, où les …",93,2,,,,,,,[''],2026-02-01,
+10,"Franchement ça reste top cool comme endroit le Café de Flore. Même si y a la queue, meme si c’est super touristique ça reste une institution avec tous les écrivains les gens de lettres qui y sont passés. La clientèle est classe, les gens …",190,5,,,,,,,[''],2025-05-01,
+11,"Merci à la serveuse qui a été aimable avec nous, en revanche, pour un serveur, la convivialité et la serviabilité n’était pas présente Nous avons déplacé un cendrier car il nous gênait et vu qu’on est non-fumeur le monsieur l’a mis sur un …",4,4,,,,,,,[''],2025-08-01,
 12,"J’aime le design des jolies tasses et assiettes.
-Le café est charmant et leur chocolat chaud est riche.
-
-Les plats et desserts sont assez classiques, mais l’intérieur et l’ambiance de cet endroit sont délicieux.
-
-Récemment, j’ai remarqué que le personnel est devenu encore plus aimable.
-
-Honnêtement, j’aimerais profiter tranquillement de la belle terrasse, mais il y a toujours beaucoup de visiteurs.
-
-Si vous êtes à Paris, c’est un café à visiter au moins une fois. Je le recommande !",274,5,,,,5.0,5.0,5.0,[''],2025-01-01,
+Le café est charmant et leur chocolat chaud est riche. …",275,5,,,,,,,[''],2025-01-01,
 13,"Café historique au chocolat chaud viennois unique
 On se plonge dans l’histoire parisienne d’une brasserie iconique
-Faut venir tôt pour avoir une place sinon l’attente est relativement raisonnable",146,5,,,,,,,[''],2026-01-01,
+Faut venir tôt pour avoir une place sinon l’attente est relativement raisonnable",147,5,,,,,,,[''],2026-01-01,
 14,"Beaucoup trop cher pour ce que cest
 Cappucino a 9euros. Tasse minuscule , meme pas bon.
-Omelette a peine passable
-Chocolat chaud tres moyen beaucoup trop dilué
-Tout hors de prix ca ne les vaut pas
-Serveurs sympa et le cadre mais pas pour la qualité de la nourriture",18,2,,,,2.0,4.0,3.0,[''],2026-01-01,
+Omelette a peine passable …",18,2,,,,,,,[''],2026-02-01,
 15,"Franchement, à part la réputation, ce café n'a rien de spécial...il y a que des touristes..lieu à visiter...
-#bookingparistransfer",5,4,,,,3.0,4.0,3.0,[''],2026-01-01,
-16,"Amabilité zéro ! Quelle expérience désagréable ce jour. Je me faisais une joie de visiter cet établissement pour la première fois. Et bien ça sera la dernière. Le serveur t’avait l’impression que tu étais venue boire le café chez lui et tu le dérangeais limite.
-Et puis sincèrement, 10 euros un cappuccino fade …. À fuire, tellement surcoté !",60,1,,,,1.0,1.0,1.0,[''],2026-02-02,
+#bookingparistransfer",5,4,,,,,,,[''],2026-01-01,
+16,Amabilité zéro ! Quelle expérience désagréable ce jour. Je me faisais une joie de visiter cet établissement pour la première fois. Et bien ça sera la dernière. Le serveur t’avait l’impression que tu étais venue boire le café chez lui et tu …,60,1,,,,,,,[''],2026-02-02,
 17,"Nous nous sommes arrêtés au café de flore avec mon ami pour boire un verre.
-Agréablement surpris de voir qu'il n'y avait pas d'attente, service impeccable, l'homme qui nous a servi à été au top !
-Nous étions à l'étage. Cocktails servis rapidement et ils étaient très bons.",36,5,,,,,5.0,5.0,[''],2025-09-01,
-18,"Honnêtement je m'attendais à une expérience désagréable, un service peu aimable et des prix exorbitants mais je suis agréablement surprise. Mon serveur était au petit soin et très sympathique. Oui c'est très touristique, il y a meilleure nourriture mais j'ai passé un bon moment.",17,5,,,,4.0,5.0,5.0,[''],2025-07-01,
-19,"Je laisse cet avis spécialement pour remercier Stéphane de son service impeccable. On n’a jamais vu quelqu’un d’aussi souriant à Paris, encore moins par un matin grisâtre. Vous avez rendu notre expérience au Café de Flore très agréable et nous avons très bien profité de notre petit-déjeuner. Merci!",58,5,,,,5.0,5.0,5.0,[''],2025-06-01,
-20,"Petit groupe de 10 filles le 31 janvier 2026, pour une pause ☕️/chocolat/☕️ 🫖👌👍. Un grand merci à Vanessa pour son accueil chaleureux doté d un bel humour le temps de nous placer et ouiiiii 10 filles très peu d attente,  merci également à Gaël pour la qualité du service et l attention apporté.😉",14,5,,,,,5.0,5.0,[''],2026-02-09,
+Agréablement surpris de voir qu'il n'y avait pas d'attente, service impeccable, l'homme qui nous a servi à été au top ! …",36,5,,,,,,,[''],2025-10-01,
+18,"Honnêtement je m'attendais à une expérience désagréable, un service peu aimable et des prix exorbitants mais je suis agréablement surprise. Mon serveur était au petit soin et très sympathique. Oui c'est très touristique, il y a meilleure nourriture mais j'ai passé un bon moment.",17,5,,,,,,,[''],2025-08-01,
+19,"Je laisse cet avis spécialement pour remercier Stéphane de son service impeccable. On n’a jamais vu quelqu’un d’aussi souriant à Paris, encore moins par un matin grisâtre. Vous avez rendu notre expérience au Café de Flore très agréable et nous avons très bien profité de notre petit-déjeuner. Merci!",58,5,,,,,,,[''],2025-07-01,
+20,"Petit groupe de 10 filles le 31 janvier 2026, pour une pause ☕️/chocolat/☕️ 🫖👌👍. Un grand merci à Vanessa pour son accueil chaleureux doté d un bel humour le temps de nous placer et ouiiiii 10 filles très peu d attente,  merci également à Gaël pour la qualité du service et l attention apporté.😉 …",14,5,,,,,,,[''],2026-02-02,
 21,"D extérieur semble très sympa.
-Le personnel de service est très bien habillé avec une tenue uniforme genre année 50.
-Une fois installé nous avons attendu un long moment pour avoir la carte. Ensuite il en a été de même pour être servi.
-Service peu sympathique d ailleurs.
-Nous avons juste pris deux boissons. Bien nous en a pris car par exemple la table à côté avait un tartare à 29€ servit avec des chips !!! Une honte de la cuisine française.
-Dés chips en guise d’accompagnement sur des plats à 30€ il faut vous remettre en question
-Conclusion 18€50 pour un jus pamplemousse et un coca ??? Sans rien de plus
-À éviter il y à mieux et moins cher ailleurs",131,1,,,,1.0,2.0,1.0,[''],2025-12-01,
-22,"Lieu historique et symbolique mais qui n'a plus grand chose à voir avec ce que devait être un café littéraire de l'époque: hyper fréquenté, hyper touristique et hyper cher. Un croque-monsieur tout à fait quelconque, salade sans sauce, 3 coupes de champagne > 80€. Aie...
-Mais serveurs sympas et serviables et ambiance animée et plutôt agréable. On y voit encore des habitués venir consommer leur ""comme d'habitude"".",9,3,,,,3.0,5.0,4.0,[''],2025-11-01,
+Le personnel de service est très bien habillé avec une tenue uniforme genre année 50. …",131,1,,,,,,,[''],2026-01-01,
+22,"Lieu historique et symbolique mais qui n'a plus grand chose à voir avec ce que devait être un café littéraire de l'époque: hyper fréquenté, hyper touristique et hyper cher. Un croque-monsieur tout à fait quelconque, salade sans sauce, 3 …",9,3,,,,,,,[''],2025-12-01,
 23,"Très belle et agréable découverte du célèbre et prestigieux Café de Flore !
-La superbe façade fleurie est un merveilleux accueil lorsque l’on arrive devant.
-J’ai été accueilli par un charmant maître d’hôtel qui m’a installé dans un coin de la terrasse que j’ai beaucoup apprécié.
-J’ai eu ensuite le privilège d’être servi par Joseph, un serveur élégant, courtois et agréable. Il est très beau avec son style parisien et sa petite moustache bien taillée. Son service est impeccable et il est attentionné. Il y ajoute également une note d’esprit, ce qui n’est pas pour me déplaire.
-J’ai pris un petit-déjeuner complet avec des œufs au plat accompagnés de bacon, un croissant, un jus d’orange et un café crème.
-Joseph a veillé à ce que je ne manque de rien.
-On se sent valorisé lorsque l’on est servi par lui.
-Pour le côté table, je me suis régalé ! Bravo à l’équipe en cuisine.
-Bon rapport qualité / prix.
-Je retournerai vraiment avec plaisir au Café de Flore !",383,5,,,,,,,[''],2024-01-01,
-24,"Le Café de Flore reste à la hauteur de sa réputation. J’ai dégusté une infusion à la menthe poivrée, fraîche et délicieuse, accompagnée d’un millefeuille divin, léger et croustillant. Le service était impeccable, avec un serveur attentionné et chaleureux. Une belle expérience parisienne !",48,5,,,,5.0,5.0,4.0,[''],2025-01-01,
+La superbe façade fleurie est un merveilleux accueil lorsque l’on arrive devant. …",383,5,,,,,,,[''],2024-01-01,
+24,"Le Café de Flore reste à la hauteur de sa réputation. J’ai dégusté une infusion à la menthe poivrée, fraîche et délicieuse, accompagnée d’un millefeuille divin, léger et croustillant. Le service était impeccable, avec un serveur attentionné et chaleureux. Une belle expérience parisienne !",48,5,,,,,,,[''],2025-01-01,
 25,"Une découverte dans ce lieu mythique Parisien.
 Une brasserie extrêmement fréquentée, l’attente a été très rapide.
-On y va pas pour le calme, on est collé les uns aux autres et il ne faut pas avoir envie d’aller aux toilettes sinon tous le monde doit se lever si vous êtes coté banquette, tout à fait normal pour une brasserie parisienne.
-
-Pour mon expérience, le service a été parfait ! Le serveur qui s’est occupé de moi a été très attentif et réactif quand mes frites sont arrivées à peine tièdes à 2 reprises, il a vite été les remplacer à chaque fois et j’ai réussi à en avoir des chaudes 😉
-
-Par contre le gros Bémol quand on commande un steak tartare dans un établissement de cette renommée a 38€, on ne sert pas des frites surgelées dignes d’un Mac Do !
-Ok 600 couverts par jour c’est beaucoup mais dommage que les responsables de l’établissement ne se soucient pas de ce genre de petit détail qui fait toute la différence.
-
-Même si le tartre était délicieux, j’ai fait l’impasse sur le dessert et je n’y retournerai plus.
-
-Pour une fois la déception n’est pas lié à la qualité de la cuisine ni du service qui fait tout pour satisfaire le client mais à la direction qui préfère regarder à l’économie et s’assurer une meilleur rentabilité quitte à décevoir sa clientèle.
-Le 2 étoiles, c’est pour les dirigeants…",9,2,,,,4.0,5.0,4.0,[''],2026-01-01,
+On y va pas pour le calme, on est collé les uns aux autres et il ne faut pas …",9,2,,,,,,,[''],2026-02-01,
 26,"Ah, le Flore… tant de bouleversements, un reflet de notre société, je crois.
-La qualité et le service sont toujours là, mais le tout est assez froid et impersonnel. Et à quel prix ?
-Les tarifs semblent désormais dignes d’un Grand Palace du 8e, ciblant plutôt les touristes fortunés et “instagram-ables”. Un vent nouveau souffle sur Saint-Germain… que faire ?
-
-N’oubliez pas de ne pas vendre (entièrement) votre belle âme au grand capital qui uniformise tout.
-Battez-vous pour ne pas sombrer.
-Tout n’est pas qu’une question d’argent dans la vie, et vous le savez , si les murs de chez vous pouvez parler.",54,3,,,,3.0,4.0,2.0,[''],2026-01-01,
+La qualité et le service sont toujours là, mais le tout est assez froid et impersonnel. Et à quel prix ? …",54,3,,,,,,,[''],2026-02-01,
 27,"Repas médiocre
 La fameux soupe à l'oignon à 16,50€ n'avait aucun gout !
 Le seul point réellement positif c'est la qualité/rapidité du service.
-Serveur souriant et agréable, rare à Paris.",39,3,,,,3.0,5.0,4.0,[''],2025-08-01,
+Serveur souriant et agréable, rare à Paris.",39,3,,,,,,,[''],2025-08-01,
 28,"Café typique parisien,  j’ai pris un œuf à la coque qui était délicieux.
-J’étais ravie de déguster mon œuf ou tant de personne historique sont venus avant moi de restaurer.
-Il y’a beaucoup de touriste qui d’ailleurs on jamais vu un œuf à la coque et qui étaient très intrigués.  Mais le service est rapide.  Et la nourriture bonne.
-Passage obligé pour un séjour à Paris.",56,5,,,,5.0,5.0,5.0,[''],2024-01-01,
-29,"Endroit très sympathique pour boire un café le matin. Serveur souriant, ce qui n’est pas le cas partout.",8,5,,,,5.0,5.0,5.0,[''],2025-12-01,
-30,"Café typiquement parisien avec un cadre assez défraîchi que nous avons malgré tout aimé. A l’intérieur le lieu est une vrai fourmilière. Les serveurs ont une cadence folle.
-On ressent la pression surtout au niveau de la récupération des commandes. Nous avons été impressionnés par leurs conditions de travail et malgré tout, peiné…
-Nous ne pensions pas pouvoir réussir a prendre un petit déjeuner car toujours beaucoup de monde et très prisé par les touristes.
-Comme les prix sont relativement chers nous mettons 4 étoiles…",289,4,,,,5.0,5.0,5.0,[''],2025-03-01,
-31,"A friend said to me, “Go to Café de flore to be seen, but not for the food.” Very true words- I enjoyed sitting outside and people watching, especially seeing girls taking selfies dressed up as Emily in Paris. The cheese board was mediocre. I’m not sure how they could mess up French cheese given the incredible variety available in Paris.
-
-Un ami m'a dit : « Va au Café de Flore pour être vu, pas pour la nourriture. » C'est tout à fait vrai : j'ai adoré m'asseoir dehors et observer les gens, surtout voir des filles prendre des selfies déguisées en Emily à Paris. Le plateau de fromages était médiocre. Je ne vois pas comment ils ont pu rater le fromage français vu l'incroyable variété disponible à Paris.",245,4,,,,2.0,4.0,5.0,[''],2025-07-01,
-32,"Aujourd’hui, nous avons vécu une expérience charmante au mythique Café de Flore. Notre serveur, Tonny ,  toujours souriant et attentionné, a rendu le moment unique. J’ai savouré un délicieux verre en regardant la vie parisienne défiler depuis la terrasse… Tonny a repondue a tout nos demande,un souvenir à garder précieusement. Merci pour ce moment si spécial !”",27,5,,,,5.0,5.0,5.0,[''],2025-08-01,
+J’étais ravie de déguster mon œuf ou tant de personne historique sont venus avant moi de restaurer. …",56,5,,,,,,,[''],2024-01-01,
+29,"Endroit très sympathique pour boire un café le matin. Serveur souriant, ce qui n’est pas le cas partout.",8,5,,,,,,,[''],2026-01-01,
+30,Café typiquement parisien avec un cadre assez défraîchi que nous avons malgré tout aimé. A l’intérieur le lieu est une vrai fourmilière. Les serveurs ont une cadence folle. …,289,4,,,,,,,[''],2025-04-01,
+31,"A friend said to me, “Go to Café de flore to be seen, but not for the food.” Very true words- I enjoyed sitting outside and people watching, especially seeing girls taking selfies dressed up as Emily in Paris. The cheese board was mediocre. …",245,4,,,,,,,[''],2025-08-01,
+32,"Aujourd’hui, nous avons vécu une expérience charmante au mythique Café de Flore. Notre serveur, Tonny ,  toujours souriant et attentionné, a rendu le moment unique. J’ai savouré un délicieux verre en regardant la vie parisienne défiler …",27,5,,,,,,,[''],2025-09-01,
 33,"Passer par Paris et ne pas s’arrêter au Café de Flore pour un lunch ou un café gourmand, c’est une hérésie!!! C’est l’ambiance typique parisienne avec un bonus “touristes” à la carte, mais ça vaut quand même la peine.
-J’ai pris une excellente Salade César et un verre de vin, le combo parfait.",174,5,,,,5.0,4.0,4.0,[''],2025-01-01,
-34,"La brasserie de référence des grands boulevards rive gauche, l'endroit est magnifique, typique et très chaleureux... Le personnel efficace et attentionné, la carte et les tarifs sont raisonnables, le service y est rapide et soigné... Le savoir faire à la Française . Félicitations et merci 🌟🌟🌟🌟🌟",249,5,,,,5.0,5.0,5.0,[''],2026-01-01,
-35,"Établissement parisien incontournable mais évidemment touristique. Le chocolat chaud est bon, sans plus. Bonne crème brûlée mais tarte tatin immonde",44,3,,,,3.0,3.0,4.0,[''],2026-01-01,
+J’ai pris une excellente Salade César et un verre de vin, le combo parfait.",174,5,,,,,,,[''],2025-01-01,
+34,"La brasserie de référence des grands boulevards rive gauche, l'endroit est magnifique, typique et très chaleureux... Le personnel efficace et attentionné, la carte et les tarifs sont raisonnables, le service y est rapide et soigné... Le savoir faire à la Française . Félicitations et merci 🌟🌟🌟🌟🌟 …",249,5,,,,,,,[''],2026-02-01,
+35,"Établissement parisien incontournable mais évidemment touristique. Le chocolat chaud est bon, sans plus. Bonne crème brûlée mais tarte tatin immonde",44,3,,,,,,,[''],2026-02-01,
 36,"Une adresse mythique de Paris.
-Niveau plat: La salade de végétaux avec où il y a une tranche de chèvre…. Mais les légumes et les champignons étaient bien marinés.
-Très bonnes profiteroles avec un très bon chocolat, de la très bonne glace et des bons choux. Portion généreuse.
-Trop de parmesan dans la salade césar.
-Service un peu lent mais sympathique. Très efficace la queue à l’entrée avance vite.
-Prix élevé, honnêtement on paie pour le nom, le quartier.",706,4,,,,4.0,4.0,4.0,[''],2024-01-01,
-37,"Le café que j'ai récemment visité est un endroit charmant situé dans le centre-ville. Dès que vous entrez, vous êtes accueilli par l'odeur alléchante de café fraîchement moulu. L'atmosphère est chaleureuse et accueillante, avec des murs en briques apparentes, des tables en bois confortables et une belle lumière naturelle qui entre par les grandes fenêtres.
-
-Le menu offre une variété de boissons chaudes et froides, ainsi que des pâtisseries et des collations légères. J'ai commandé un cappuccino et un croissant au beurre. Le cappuccino était parfaitement préparé, avec une mousse de lait lisse et crémeuse et un café corsé. Le croissant était également délicieux, légèrement croustillant à l'extérieur et moelleux à l'intérieur.
-
-Le personnel était sympathique et serviable, prêt à répondre à toutes mes questions sur les boissons et les pâtisseries. Le service était rapide et efficace, sans sacrifier la qualité ou le goût.
-
-La décoration de l'endroit est simple mais élégante, avec des touches de plantes vertes et des œuvres d'art locales accrochées aux murs. L'ambiance était calme et paisible, parfait pour une pause-café en solo ou une rencontre avec des amis.
-
-Le seul petit point négatif était le prix, un peu plus élevé que dans d'autres cafés de la région. Cependant, la qualité des boissons et des pâtisseries en valait vraiment la peine.
-
-En résumé, je recommande vivement ce café pour une expérience de café délicieuse et relaxante.",3,4,,,,,,,[''],2024-01-01,
+Niveau plat: La salade de végétaux avec où il y a une tranche de chèvre…. Mais les légumes et les champignons étaient bien marinés. …",707,4,,,,,,,[''],2024-01-01,
+37,"Le café que j'ai récemment visité est un endroit charmant situé dans le centre-ville. Dès que vous entrez, vous êtes accueilli par l'odeur alléchante de café fraîchement moulu. L'atmosphère est chaleureuse et accueillante, avec des murs en …",3,4,,,,,,,[''],2024-01-01,
 38,"Un lieu mythique qui reste à la hauteur de sa légende.
-Service élégant, ambiance intemporelle, et cette sensation unique d’être à la fois dans Paris et en dehors du monde.
-Chaque détail est soigné, du verre de vin au café parfait. Ici, on ne consomme pas : on savoure.
-Merci pour ce moment suspendu",19,5,,,,5.0,5.0,5.0,[''],2025-04-01,
-39,"Un lieu mythique de l'intelligentsia française. Avec une atmosphère intemporelle, un emplacement incroyable au cœur du 6e arrondissement de la capitale, le café de Flore offre le cadre idéal pour un petit déjeuner typically french. Certes, les prix sont à la hauteur du mythe, et l'accueil parfois distant (sûrement lié à l'afflux permanent de touristes), mais le lieu conserve un charme inégalé, dans lequel il est doux de laisser son  imaginaire errer en songeant à l'histoire artistique et littéraire de Paris, et aux illustres personnes ayant usé les sièges de cet emblème du boulevard Saint Germain.",166,5,,,,4.0,5.0,5.0,[''],2025-04-01,
+Service élégant, ambiance intemporelle, et cette sensation unique d’être à la fois dans Paris et en dehors du monde. …",19,5,,,,,,,[''],2025-05-01,
+39,"Un lieu mythique de l'intelligentsia française. Avec une atmosphère intemporelle, un emplacement incroyable au cœur du 6e arrondissement de la capitale, le café de Flore offre le cadre idéal pour un petit déjeuner typically french. Certes, …",166,5,,,,,,,[''],2025-05-01,
 40,"Cette institution parisienne est un haut lieu historique littéraire, philosophique, culturel, artistique.
-Beaucoup de monde, nous étions installés à l'intérieur à une petite table, observant notre entourage, s'inventant des histoires sur certains clients en se demandant si ce sont des habitués, artistes, écrivains. On peut s'imaginer des tas de choses dans cet établissement historiquement artistique. Rien que pour ce moment, cela valait la peine de venir.
-Nous avons pris un petit déjeuner ""classique"" et nous avons bien profité de l'instant présent, le service était très bien, compréhensif et serviable.",206,5,,,,5.0,5.0,5.0,[''],2025-01-01,
-41,"« Un lieu légendaire à Saint-Germain, riche en histoire. On y sert un chocolat chaud parfait et des croissants succulents. Les prix sont élevés, mais l'ambiance en vaut la peine : on y ressent l'esprit du vieux Paris. »",1,5,,,,5.0,5.0,4.0,[''],2025-12-01,
-42,"Restaurant bien cliché parisien que j’ai testé pour accompagner une amie touriste. En tant que parisienne, j’ai adoré l’ambiance mais le chocolat chaud et la crème brûlée que j’ai commandé n’étaient pas du tout bon…. 22€ et je n’ai même pas pu tout manger. Déçue, je ne recommanderai pas ce café pour mes amis étrangers.",10,2,,,,1.0,4.0,3.0,[''],2025-01-01,
-43,"Le Café de Flore reste une adresse parisienne emblématique, chargée d’histoire et de charme. Le service est attentif, le cadre authentique, et l’ambiance typiquement parisienne. Parfait pour savourer un café en terrasse en observant le quartier de Saint-Germain-des-Prés. Une belle expérience intemporelle. ☕✨",20,5,,,,5.0,5.0,5.0,[''],2025-10-01,
-44,"Si le service était impeccable, leur tarte tatin à 15 € la part était moyenne.En fait, on  paye tout le tralala.Pour le thé à 9€, nous avons eu droit en plus  à une carafe d eau froide, petite carafe d eau chaude.On aurait aimé un peu de lait mais j imagine qu il aurait fallu le payer.Experience décevante.",17,3,,,,3.0,5.0,3.0,[''],2025-12-01,
+Beaucoup de monde, nous étions installés à l'intérieur à une petite table, …",206,5,,,,,,,[''],2025-01-01,
+41,"« Un lieu légendaire à Saint-Germain, riche en histoire. On y sert un chocolat chaud parfait et des croissants succulents. Les prix sont élevés, mais l'ambiance en vaut la peine : on y ressent l'esprit du vieux Paris. »",1,5,,,,,,,[''],2026-01-01,
+42,"Restaurant bien cliché parisien que j’ai testé pour accompagner une amie touriste. En tant que parisienne, j’ai adoré l’ambiance mais le chocolat chaud et la crème brûlée que j’ai commandé n’étaient pas du tout bon…. 22€ et je n’ai même pas pu tout manger. Déçue, je ne recommanderai pas ce café pour mes amis étrangers.",10,2,,,,,,,[''],2025-01-01,
+43,"Le Café de Flore reste une adresse parisienne emblématique, chargée d’histoire et de charme. Le service est attentif, le cadre authentique, et l’ambiance typiquement parisienne. Parfait pour savourer un café en terrasse en observant le quartier de Saint-Germain-des-Prés. Une belle expérience intemporelle. ☕✨",20,5,,,,,,,[''],2025-11-01,
+44,"Si le service était impeccable, leur tarte tatin à 15 € la part était moyenne.En fait, on  paye tout le tralala.Pour le thé à 9€, nous avons eu droit en plus  à une carafe d eau froide, petite carafe d eau chaude.On aurait aimé un peu de lait mais j imagine qu il aurait fallu le payer.Experience décevante.",17,3,,,,,,,[''],2026-01-01,
 45,"Le chocolat viennois est une tuerie!!!
 Merci pour le soin apporté par le serveur.
-Un joli moment au café de Flore",38,5,,,,5.0,5.0,,[''],2025-11-01,
+Un joli moment au café de Flore",38,5,,,,,,,[''],2025-12-01,
 46,"Très mauvaise expérience !!!!
-Nous nous sommes rendus au Café de Flore pour déjeuner en famille, mais l’accueil a été particulièrement décevant. La placeuse nous a immédiatement demandé de plier la poussette alors que notre bébé dormait profondément. Malgré notre impossibilité de la plier dans ces conditions, elle nous a tout simplement refusé l’accès.
-
-Au-delà du refus, c’est surtout son attitude qui nous a marqués : elle ne nous regardait même pas dans les yeux, était très désagréable et clairement malpolie. Une expérience malheureusement très loin du standing attendu d’un établissement aussi réputé.
-
-Nous sommes alors allés juste à côté, aux Deux Magots, où l’accueil a été tout l’inverse : chaleureux, souriant et surtout compréhensif. Ils ont immédiatement trouvé une solution pour que nous puissions nous installer avec la poussette et déjeuner sereinement.
-
-Un grand merci aux Deux Magots pour leur professionnalisme — et une vraie déception pour le Café de Flore",23,1,,,,1.0,1.0,1.0,[''],2025-11-01,
-47,"C’était mieux avant … faire la queue , déjeuner en terrasse quand il fait zéro degré …. Un truc de touriste … fini le temps ou le personnel venait vous serrer la main et taper la discute ! Tout fou le camp Simone !",416,3,,,,2.0,1.0,2.0,[''],2025-12-01,
-48,"Café légendaire à Saint-Germain-des-Prés, où Sartre, de Beauvoir et Ernest Hemingway ont pris place à différentes époques. Les prix sont élevés, les touristes nombreux, mais l'ambiance y est particulière. C'est l'endroit idéal pour boire une tasse de chocolat chaud et observer la vie du « Left Bank » parisien. On y vient non seulement pour manger, mais aussi pour toucher l'histoire.",1,5,,,,5.0,5.0,5.0,[''],2025-12-01,
+Nous nous sommes rendus au Café de Flore pour déjeuner en famille, mais l’accueil a été particulièrement décevant. La placeuse nous a immédiatement demandé de …",23,1,,,,,,,[''],2025-12-01,
+47,"C’était mieux avant … faire la queue , déjeuner en terrasse quand il fait zéro degré …. Un truc de touriste … fini le temps ou le personnel venait vous serrer la main et taper la discute ! Tout fou le camp Simone !",416,3,,,,,,,[''],2026-01-01,
+48,"Café légendaire à Saint-Germain-des-Prés, où Sartre, de Beauvoir et Ernest Hemingway ont pris place à différentes époques. Les prix sont élevés, les touristes nombreux, mais l'ambiance y est particulière. C'est l'endroit idéal pour boire …",1,5,,,,,,,[''],2026-01-01,
 49,"Attrape touristes
-Les serveurs sont froid er enchaînent les commandes sans moindre marque de respect. Le chocolat chaud n est pas à la hauteur de la qualité attendu.",83,2,,,,2.0,2.0,3.0,[''],2026-01-01,
-50,"Tout d'abord, je veux juste dire qu'il faut virer la femme en blazer noir aux cheveux châtain foncé parce que ma famille et moi voulons voir et découvrir toute l'histoire de cet endroit. Nous attendions juste dehors et elle n'était rien d'autre qu'impolie en parlant aux autres familles comme si nous pouvions l'entendre. Nous ne nous associons pas à des gens comme ça, alors pour commencer, n'y allez pas si vous ne voulez pas être jugé. Deuxièmement, elle ne sait pas comment s'utiliser et en plus (embaucher des gens comme elle est tout simplement embarrassant).",2,1,,,,1.0,1.0,1.0,[''],2025-07-01,
+Les serveurs sont froid er enchaînent les commandes sans moindre marque de respect. Le chocolat chaud n est pas à la hauteur de la qualité attendu.",83,2,,,,,,,[''],2026-01-01,
+50,"Tout d'abord, je veux juste dire qu'il faut virer la femme en blazer noir aux cheveux châtain foncé parce que ma famille et moi voulons voir et découvrir toute l'histoire de cet endroit. Nous attendions juste dehors et elle n'était rien …",2,1,,,,,,,[''],2025-08-01,
 51,"La qualité a énormément baissé.
 
-Ils ne servent même pas le café avec un petit chocolat ou biscuit ce qui serait le minimum pour un lieu comme celui-ci.
-
-Dans des bars/cafés plus modestes vous avez au moins un biscuit.
-
-Il faut croire que même dans les endroits chics, la recherche des économies pour faire du chiffre Est un sport national.
-
-La France n'a plus de vrais valeurs grâce à ce gouvernement .
-
-De plus le beurre d'échiré de grande qualité est servi dur comme de la pierre très compliqué pour tartiner un pain brioché ? Comment une telle erreur est possible ?",210,2,,,,1.0,2.0,3.0,[''],2025-01-01,
+Ils ne servent même pas le café avec un petit chocolat ou biscuit ce qui serait …",210,2,,,,,,,[''],2025-01-01,
 52,"Personnel accueillant et chaleureux à la bonne humeur et au sens de l'humour 😊
 Le café était charmant tout comme la cuisine qui n'était pas en reste! La vaisselle, le thé, tout comme le mobilier (dehors comme dedans) sont ravissants.
-Le repas était très agréable! ❁",9,5,,,,5.0,5.0,5.0,[''],2025-01-01,
-53,"Bonne cuisine, j'ai pris une salade niçoise bien servi et une tarte tatie excellente....bonne ambiance...serveur aimable et souriant....",32,5,,,,5.0,5.0,5.0,[''],2025-04-01,
-54,"Un lieu mythique, un café délicieux servi sur un joli set de table papier reproduction d'un dessin de Sempé. What else?",16,5,,,,,5.0,5.0,[''],2025-12-01,
+Le repas était très agréable! ❁ …",9,5,,,,,,,[''],2025-01-01,
+53,"Bonne cuisine, j'ai pris une salade niçoise bien servi et une tarte tatie excellente....bonne ambiance...serveur aimable et souriant....",32,5,,,,,,,[''],2025-05-01,
+54,"Un lieu mythique, un café délicieux servi sur un joli set de table papier reproduction d'un dessin de Sempé. What else?",16,5,,,,,,,[''],2026-01-01,
 55,"Lieu charmant et emblématique parisien.
 Il faut parfois faire la queue pour découvrir ce lieu.
-Très bruyant, et servi au pas de charge.
-Votre temps de présence pour consommer est sous observation par les serveurs. (Surtout s'il y a une fille d'attente devant le café)",54,4,,,,5.0,4.0,3.0,[''],2025-01-01,
-56,"J'y viens de temps à autre pour une boisson chaude. En général un thé vert ou un chocolat chaud.
-Serveurs toujours très agréables et avenants sans être pressants.
-(Je m'installe toujours à l'intérieur pour plus de tranquillité)
-Et véritable plus: toilettes toujours très propres et bien entretenues (merci Madame).",11,5,,,,5.0,5.0,5.0,[''],2025-10-01,
-57,"Un lieu mythique au cœur de Saint-Germain-des-Prés! Le Café de Flore mêle à merveille charme d’antan et élégance parisienne. Le café crème est délicieux, les viennoiseries fondent en bouche, et le personnel est toujours accueillant malgré l’affluence. On y vient autant pour l’ambiance que pour l’histoire : chaque visite est un petit voyage dans le temps. Incontournable pour les amoureux de Paris!",5,5,,,,5.0,5.0,5.0,[''],2025-06-01,
-58,"Honteuse façon de traiter la clientèle. Au delà de leur attitude aigris, ils sont malpolis. On a laissé passer 3 serveurs dans les escaliers, pas un d’eux ne nous a dit merci. Il devrait tous aller prendre une petite leçon de savoir vivre.",12,2,,,,3.0,1.0,1.0,[''],2025-11-01,
-59,"☕️ Le Café de Flore est un lieu typiquement parisien et emblématique de la ville. L'ambiance y est très classe et chic, ce qui en fait un endroit agréable pour prendre un café ou un verre entre amis. 🍸
+Très bruyant, et servi au pas de charge. …",54,4,,,,,,,[''],2025-01-01,
+56,"Un lieu mythique au cœur de Saint-Germain-des-Prés! Le Café de Flore mêle à merveille charme d’antan et élégance parisienne. Le café crème est délicieux, les viennoiseries fondent en bouche, et le personnel est toujours accueillant malgré …",5,5,,,,,,,[''],2025-07-01,
+57,"Honteuse façon de traiter la clientèle. Au delà de leur attitude aigris, ils sont malpolis. On a laissé passer 3 serveurs dans les escaliers, pas un d’eux ne nous a dit merci. Il devrait tous aller prendre une petite leçon de savoir vivre.",12,2,,,,,,,[''],2025-12-01,
+58,"☕️ Le Café de Flore est un lieu typiquement parisien et emblématique de la ville. L'ambiance y est très classe et chic, ce qui en fait un endroit agréable pour prendre un café ou un verre entre amis. 🍸 …",133,4,,,,,,,[''],2024-01-01,
+59,"Le Café de Flore est une véritable institution parisienne : l’ambiance art déco, les miroirs, les banquettes rouges… tout est d’un charme intemporel. Le décor est chargé d’histoire, et on ressent immédiatement le poids de la littérature et de la philosophie qui ont marqué le lieu.  ￼",3,5,,,,,,,[''],2025-12-01,
+60,"Un café historique et très atmosphérique. Un endroit idéal pour ressentir l'esprit de Paris. Les croissants sont frais, le café est fort, le service est rapide, mais les prix sont élevés : vous payez pour la légende.",1,5,,,,,,,[''],2026-01-01,
+61,"J ai consommé un cappuccino des plus décevant ce matin, indigne d un établissement de ce rang. Bien présenté, ce n était qu un lait chaud sans odeur ni saveur, totalement insipide. A déconseiller. Le service n est pas particulièrement aimable ni attentif. Mais où est donc passé Jean-Paul… ?",6,1,,,,,,,[''],2025-11-01,
+62,"L'icône Saint-Germain-des-Prés, où Sartre et de Beauvoir avaient leurs habitudes. Les prix sont élevés, mais l'ambiance en vaut la peine. Idéal pour prendre un café et un croissant le matin tout en observant l'effervescence du boulevard parisien.",1,5,,,,,,,[''],2026-01-01,
+63,"Un café qui me rappelle une très bonne chanson ""Et mon père..."" Un café avec un gâteau et un moment magique pour sceller ma semaine de vacances à Paris... Une soirée pour saluer ma ville préférée malgré sa dégradation, l'insécurité qui y …",363,3,,,,,,,[''],2025-04-01,
+64,"Avis sur le Café de Flore – Une adresse mythique à Paris
 
-💰 Cependant, les prix sont un peu élevés, ce qui peut décourager certaines personnes. Il est vrai que le Café de Flore est un endroit réputé, donc cela peut se justifier en partie. Mais cela peut tout de même être un inconvénient pour certains. 💵
-
-🍽️ En revanche, la qualité des produits proposés est vraiment excellente. Les pâtisseries et les boissons sont délicieuses, ce qui rend l'expérience gustative très agréable. 🍰
-
-👍 Le service est également très professionnel et aimable, ce qui ajoute à l'expérience globale. Les serveurs sont attentifs et réactifs, ce qui est très appréciable. 🤝
-
-En résumé, je recommande le Café de Flore à Paris pour ceux qui cherchent un lieu typiquement parisien et classe pour prendre un café ou un verre. Malgré les prix un peu élevés, la qualité des produits et le service impeccable en font une bonne option pour une expérience gustative agréable. 🇫🇷",132,4,,,,,,,[''],2024-01-01,
-60,"Le Café de Flore est une véritable institution parisienne : l’ambiance art déco, les miroirs, les banquettes rouges… tout est d’un charme intemporel. Le décor est chargé d’histoire, et on ressent immédiatement le poids de la littérature et de la philosophie qui ont marqué le lieu.  ￼",3,5,,,,,,,[''],2025-11-01,
-61,"Un café historique et très atmosphérique. Un endroit idéal pour ressentir l'esprit de Paris. Les croissants sont frais, le café est fort, le service est rapide, mais les prix sont élevés : vous payez pour la légende.",1,5,,,,5.0,5.0,5.0,[''],2025-12-01,
-62,"J ai consommé un cappuccino des plus décevant ce matin, indigne d un établissement de ce rang. Bien présenté, ce n était qu un lait chaud sans odeur ni saveur, totalement insipide. A déconseiller. Le service n est pas particulièrement aimable ni attentif. Mais où est donc passé Jean-Paul… ?",6,1,,,,1.0,2.0,2.0,[''],2025-10-01,
-63,"L'icône Saint-Germain-des-Prés, où Sartre et de Beauvoir avaient leurs habitudes. Les prix sont élevés, mais l'ambiance en vaut la peine. Idéal pour prendre un café et un croissant le matin tout en observant l'effervescence du boulevard parisien.",1,5,,,,5.0,5.0,5.0,[''],2025-12-01,
-64,"Un café qui me rappelle une très bonne chanson ""Et mon père..."" Un café avec un gâteau et un moment magique pour sceller ma semaine de vacances à Paris... Une soirée pour saluer ma ville préférée malgré sa dégradation, l'insécurité qui y règne de plus en plus mais café de flores vient d'un simple geste effacer cette déception d'un touriste passionné, un serveur professionnel et compétent qui vous écoute vous conseille et vous rappelle que vous êtes dans la ville des lumières et que la dernière soirée à Paris est sous le signe de la réconciliation avec le lieu et l'espace, un moment de détente comme on en vit rarement mais profond et fort, il déracine les mauvaises herbes de mon moral et nous rend Paris... Le café est excellent et le millefeuille est délicieux... Merci pour ce moment... Et comme dirait un général célèbre : "" je reviendrai "" 😀... Je suis revenu et prix 3 boules de glace et un café pour 21 euros, j'estime donc le deal équitable mais malheureusement alors que j'étais en train d'écrire avec une inspirant profonde, les serveurs m'ont rappelé J P Sartres, et les autres sont venus perturber cette quiétude et dégrader d'un coup l'image exceptionnelle que j'avais de ce café... donc j'ai payé et ensuite, on m'a retiré le reste de mon café noir alors qu'il aurait été plus simple de me demander de reprendre d'autres choses pour la rentabilité de la table... La suite de l'histoire est encore plus triste puisque sans des boissons sur ma table, un client s'est installé en face de moi... dommage, j'aimais bien cet endroit et il était classé dans le top des endroits que je préfère à Paris...
-Je ne reviendrai plus et ça ne ferait qu'un client de moins pour un endroit toujours plein de clients... Mais aujourd'hui en tant que citoyen du monde, c'est le seul pouvoir que je possède sur les autres... Merci google de publier mon commentaire et merci J P Sartres pour m'avoir préparé à accepter le comportement des autres...",363,3,,,,5.0,4.0,4.0,[''],2025-03-01,
-65,"Avis sur le Café de Flore – Une adresse mythique à Paris
-
-Situé dans le quartier de Saint-Germain-des-Prés, le Café de Flore est une institution parisienne. Fréquenté autrefois par des écrivains et intellectuels comme Jean-Paul Sartre et Simone de Beauvoir, ce lieu emblématique offre une ambiance typiquement parisienne avec son décor Art déco et sa terrasse animée.
-
-✅ Points positifs :
-• Un cadre historique et élégant : L’intérieur est magnifique, et la terrasse permet d’observer l’animation du quartier.
-• Un service à la parisienne : Les serveurs sont professionnels et efficaces.
-• Un bon café et des viennoiseries de qualité : Le chocolat chaud est particulièrement réputé.
-• Un lieu chargé d’histoire : On ressent l’âme du Paris littéraire et artistique.
-
-❌ Points négatifs :
-• Prix élevés : C’est un lieu touristique, donc les tarifs sont plus chers que la moyenne.
-• Affluence importante : Il peut être difficile de trouver une place, surtout aux heures de pointe.
-
-⭐️ Mon conseil :
-• Venez le matin pour éviter la foule et profiter d’un petit-déjeuner parisien authentique.
-• Installez-vous en terrasse si possible, pour admirer l’ambiance de Saint-Germain-des-Prés.",82,5,,,,5.0,5.0,5.0,[''],2025-01-01,
-66,"Enfin !
-On voulais y boire un café, nous l'avons fait et en plus, une soupa à l'oignon savoureuse et gourmande.
-La planche mixte est satisfaisante avec les  bons choix de fromage et charcuteries.
-
-Ambiance agréables, nous étions assis dans la verrière, on pouvait discuter sans cacophonie.",18,5,,,,5.0,5.0,5.0,[''],2025-10-01,
-67,"je voulais voir j'ai vu....
+Situé dans le quartier de Saint-Germain-des-Prés, le Café de Flore est une …",82,5,,,,,,,[''],2025-01-01,
+65,"Enfin !
+On voulais y boire un café, nous l'avons fait et en plus, une soupa à l'oignon savoureuse et gourmande. …",18,5,,,,,,,[''],2025-11-01,
+66,"je voulais voir j'ai vu....
 serveurs typiques parisiens:
-pas souriants
-pas aimables
-
-qu'est qu 1 café special flore?
-réponse : le café du flore....!!!!
-la reponse aurait été pur arabica ou robusta du continent x
-on désire savoir pourquoi il est spécial.....au goût , ...bien ordinaire
-même question pour le chocolat spécial du flore, même réponse
-
-lieu insipide qui vit sur le fait que des écrivains se sont glissés sur des chaises inconfortables.
-lieu vieillissant
-Du pur snobisme....parisien?
-bien vendu aux étrangers.
-
-le prix d'1 café et d'1 chocolat médiocre ....plus de 16 €
-rien ne peut le justifier.
-ne tombez pas comme moi dans ce piège...",20,2,,,,,,,[''],2025-12-01,
-68,"Cuisine assez bonne, j’ai goûté un pain aux raisins et un chocolat chaud mais le prix est insensé, 15,50€ pour ça c’est tout bonnement honteux.
-De plus le serveur oblige de prendre au moins 1 consommation par personne pour pouvoir rester à table ( règle qui n’a aucun sens )
-En résumé la cuisine était bonne mais le reste vaut un bon 0",4,1,,,,3.0,1.0,1.0,[''],2025-09-01,
-69,"Nous sommes venus prendre un petit déjeuner en famille. Le serveur a été professionnel et accueillant, mais nous avons été gênés par l’attitude du manager à la caisse. Il nous a regardés d’une manière désagréable et a semblé faire des remarques à sa collègue à notre sujet, simplement parce que nos enfants étaient montés sur la moquette sans que nous nous en rendions compte. Cela a un peu gâché l’expérience, dommage😏car le service du serveur était très bien👌",21,1,,,,2.0,5.0,1.0,[''],2025-09-01,
-70,"Expérience décevante au Café de Flore, Paris
-Je suis allée au Café de Flore avec mon mari, et malheureusement, notre expérience a été extrêmement décevante. Nous venions de déjeuner et j’ai voulu m’arrêter pour prendre simplement un café. Mon mari, lui, n’avait pas envie de consommer quoi que ce soit.
-
-À ma grande surprise, le serveur a refusé de prendre ma commande, en disant que nous étions obligés de consommer tous les deux pour pouvoir rester à la table. J’ai trouvé cela injuste, absurde et inacceptable. Il n’y a aucune règle qui oblige toutes les personnes à une table à consommer, surtout dans un établissement aussi réputé.
-
-Je me suis sentie mal à l’aise et non respectée. Cette exigence est clairement une pratique forcée, et non un bon service client.
-
-Finalement, j’ai pris un café à 17,50 €, ce qui est déjà très cher, et en plus, le café n’était même pas bon. Pour ce prix, on s’attend à quelque chose de bien meilleur, autant au niveau du goût que du service.
-
-Je ne recommande absolument pas ce café. Il y a plein d'autres endroits à Paris avec un meilleur accueil, un service plus respectueux et des prix plus honnêtes.",22,1,,,,1.0,1.0,1.0,[''],2025-08-01,
-71,"“Le Café de Flore est un endroit emblématique avec une ambiance charmante. Le service est impeccable, les boissons sont délicieuses, et l’histoire du lieu rend l’expérience encore plus spéciale.”",36,5,,,,5.0,4.0,5.0,[''],2025-05-01,
-72,"Mythique, j'ai longuement entendu parler de ce café, et j'ai été doublement combler. L'élégance et le raffinement au rendez vous. Tout était parfait. Endroit très chaleureux et le personnel très accueillant et très courtois. Si vous êtes à Paris, il faut absolument absolument faire un break au café Flore.",131,4,,,,,,,[''],2023-01-01,
-73,"Un moment incontournable dans cet établissement unique.
-Accueil chaleureux Service d une extrêmement qualité.
-Un souvenir merveilleux.",81,5,,,,5.0,5.0,4.0,[''],2025-06-01,
-74,"Un des spots les plus touristiques de Paris. Néanmoins, le service y est toujours au top et les petits déjeuners/brunchs y sont très bons. Pas beaucoup d'attente en général car la café est assez spacieux avec des espaces extérieurs et intérieurs.",80,5,,,,,,,[''],2023-01-01,
-75,"C'est l'un des cafés les plus anciens et les plus légendaires de Paris. Historiquement, c'est ici que se réunissaient les écrivains, les philosophes et les artistes.
-Ambiance : typiquement parisienne, avec ses banquettes rouges, ses miroirs, ses tables de café sur le boulevard, son confort et son esprit du vieux Paris.",1,5,,,,5.0,5.0,5.0,[''],2025-12-01,
-76,"Je profite de ce moment pour déguster mon café sur cette terrasse.
-Un endroit unique pour moi car Normande et personnel accueillant, souriant et courtois.
-N'hésitez pas à aller déguster ce bon café au café de Flore.
-Cela me rappelle une chanson 😉.",11,5,,,,5.0,5.0,5.0,[''],2025-10-01,
-77,"Un café qui n’a de spécial que le nom, pareil pour le chocolat chaud, service pressé et peu attentionné, terrasse quelconque, l’établissement vit sur sa réputation. Tellement d’autres terrasses plus parisiennes, le café de Flore ne vaut pas le détour.",36,2,,,,2.0,2.0,2.0,[''],2025-12-01,
-78,"Certes c'est un lieu relativement bourgeois et unpeu cher, mais l'institution le vaut largement. En réalité ce n'est pas cher car le service est parfait (Merci Arthur) les quantités assez généreuses ! Et le cadre est simplement mythique ! Il faut le faire une fois au mois .. et avec un livre c'est mieux :) .. ps : la tarte tatin est magique !",128,5,,,,,,,[''],2022-01-01,
-79,"Vraiment très beau restaurant. On y mange très bien 👍(omelette excellente). Le service 👍, les serveurs très sympathique, souriant , c'est agréable. Un bon moment, un bon souvenir 😊.",321,5,,,,5.0,5.0,5.0,[''],2024-01-01,
-80,"Serveur respectueux, bonne cuisine. L'ananas frais est un délice sucré ✅️  Le chocolat chaud est incroyablement onctueux ✅️ Le cocktail Chantaco bien dosé et le✅️ Et le club sandwich bien bon, frais et croustillant ! Merci encore.",8,4,,,,4.0,5.0,3.0,[''],2025-05-01,
-81,Le Flore est devenu une institution pour touristes. On y mange toujours bien mais trop de monde d'agitation et de touristes. Dommage!,8,3,,,,,,,[''],2026-01-01,
-82,"A l'image ancestral d'un café au bon service, il ne vole pas leur réputation !
-Un bon endroit où se poser en terrasse pour profiter du soleil, de Paris et d'un bon livre !
-
-Leur Napoleon est excellent, et leur thé du café de Flore vaut le détour",75,5,,,,5.0,5.0,5.0,[''],2025-03-01,
-83,"Le cadre : jolie terrasse très prisée qui malheureusement entraîne un certain temps d’attente. Une adresse incontournable de Paris que le Café de Flore et ses célébrités ☆ 3/5
-
-Le service : Nous avons été placé à une table se trouvant au coin de la terrasse couverte. Le soleil tapant faisant un effet de serre et une odeur pas très agréable chatouillant nos narines. Un serveur stressé ne se préoccupant pas de la clientèle outre mesure que leur prendre et livrer leur commande ☆ 2/5
-
-La présentation : Je m’attendais à plus de raffinement au vu de la réputation de l’établissement. La vaisselle plutôt grossière qui m’a fait penser à celle des hôtels bas de gamme. Déçue ! ☆ 2/5
-
-Le porte monnaie : les prix ne sont absolument pas justifiés par les prestations et la qualité fournies ☆1/5",82,2,,,,,,,[''],2024-01-01,
-84,"Étant un lieu incontournable de la rive gauche, prisé par les plus grands philosophes. il était nécessaire pour moi de m’y rendre au moins une fois.
-Cependant, la déception était au rendez vous : 25 minutes d’attente en extérieur pour pouvoir être placé à des tables qui n’étaient plus occupées depuis longtemps.
-Rien à dire sur le service, le personnel reste serviable et courtois malgré quelques clients insupportables.
-Les prix sont très élevés aussi, mais on je m’y attendais en y allant.
-
-C’est devenu un café pour touristes aisé, dommage.",53,3,,,,3.0,4.0,2.0,[''],2025-01-01,
-85,"On y est allé pour la renommée. Au final, c'est très cher (deux verres de vin pour 30 euros), c'est bondé, le personnel n'est pas très agréable et ça n'est pas mieux qu'ailleurs. En plus, c'est sur un boulevard donc la terrasse n'est pas plus agréable que ça.",212,2,,,,,2.0,2.0,[''],2025-03-01,
-86,"Ce café est à l'image de Paris : un beau bâtiment dans lequel on se doute qu'il y a eu un jour une effervescence, mais qui n'est aujourd'hui plus qu'un musée à ciel ouvert dans lequel plus personne ne vit vraiment. En bref, un café pour touristes qui vit sur sa gloire passée.
-
-Prix très exagérés, service mediocre",16,1,,,,,,,[''],2025-08-01,
-87,"Café dans lequel un arrêt est toujours récompensé par une de leur spécialité gourmande et goutue ! Un grand merci au serveur Jordan qui a été un professionnel accueillant, efficace et aux petits soins digne du lieu typique et classique Parisien qu'est le Café de Flore",44,5,,,,5.0,5.0,5.0,[''],2024-01-01,
-88,"Le chocolat chaud à la chantilly est un incontournable… Bon peu y passer un moment simple ou au contraire, profiter d’un dîner, très sophistiqué. À chacun son café de flore et à chacun son souvenir.",6,5,,,,4.0,5.0,5.0,[''],2025-11-01,
-89,"Le café de flore est une adresse cliché et typique de Paris, première fois que je le test et il n’en vaut pas spécialement le détour. En effet, vous aurez votre moment instagram et cliché de Paris, sympa pour les touristes je pense!
-J’y ai quand même passé un bon moment, et les œufs étaient très bon. C’est dommage que tout va vite, on sent que c’est un peu l’usine là dedans et qu’il faut juste faire rentrer du monde, les serveurs courent de partout, beaucoup de bruit. Il y a beaucoup mieux à Paris en terme de choix pour bruncher, des cadres plus agréables, et des cartes avec un plus large choix.
-Rapport qualité prix pas terrible non plus, vous payez la réputation du café parisien.
-Pour résumer c’est un café normal, un poil cher pour ce que c’est.",34,3,,,,,,,[''],2022-01-01,
-90,Franchement 5 étoiles à cause du service. Cherchez à vous faire servir par Youssef car il est très serviable et agréable. Toujours au petit soins,1,5,,,,,5.0,,[''],2026-02-02,
-91,"A faire si l'on est à Saint-Germain des Prés, les tarifs sont un peu élevés et nous payons la renommée du Café mais le personnel est aimable serviable .
-Attention si vous allez aux toilettes prenez un peu de monnaie car aussi improbable que cela puisse paraître dans cet endroit magnifique que sont les toilettes, il y a une ""Dame pipi"" qui vous saluera gentiment à votre arrivée mais ne répondra pas à votre au revoir si vous ne lui laissez pas un petit quelque chose 🤣🤣 .
-Dommage madame ce n'est marqué nulle part que vous êtes là.
-Mais belle expérience malgré tout.",152,4,,,,,,,[''],2021-01-01,
-92,"Un endroit mythique à découvrir
-La cuisine est très bonne et le service parfait
-Le croque monsieur est très bon
-Les œufs brouillées au saumon parfait aussi
-Le chocolat viennois un délice
-Absolument pas déçue",121,4,,,,4.0,4.0,4.0,[''],2025-01-01,
-93,"Je met une étoile car impossible de mettre zéro, malheureusement c’est NUL.
-Accueil NUL, serveur FATIGUÉS !
-La table sentait le caca car il venaient de nettoyer la table avec une lavette ATROCE, l’odeur mais sérieux c’est du jamais vu, on est partis direct, « le café le plus iconique de Paris » voit-on sur les réseaux c’est une catastrophe allez aux deux magots à côté c’est génial propre, serveurs adorables, le café de flore c’est ECHOUEEEYYYY",6,1,,,,1.0,1.0,1.0,[''],2025-09-01,
-94,"Délicieux chocolat chaud. Service attentionné et chaleureux, merci à Gaël.
-Nous reviendrons.",5,5,,,,4.0,5.0,4.0,[''],2026-02-02,
-95,"J'y suis allé avec ma famille et il est difficile d'avoir une table à l'extérieur et il y a tjr une file d'attente. Jcomprends pas le battage médiatique autour de ça, juste un café moyen",28,4,,,,5.0,4.0,5.0,[''],2024-01-01,
-96,Je recommande franchement ! J'ai adorée la petite ambiance proposé la bas et on s'y sent bien. C'est aussi très bien pour un date 😜,10,5,,,,5.0,5.0,5.0,[''],2025-11-01,
-97,"Pas de bonjour. Peu de place, les serveurs vous bousculent en permanence et ne s excusent pas. La caissière vous sourit après avoir réglé l addition. Décevant pour ce haut lieu du savoir vivre intellectuel français",6,1,,,,,1.0,1.0,[''],2025-11-01,
-98,"J'ai commandé une bière, un café viennois et une salade, et cela m'a coûté 42 euros au total. La bière avait un goût dilué, le café, je parie qu'il ne coûte pas plus de 2 euros à produire, et la salade, je doute qu'ils aient servi ce genre de plat à Hemingway. De nos jours, certains prennent encore leur café avec sérieux, tandis que d'autres exploitent sans vergogne la mémoire de personnalités disparues pour en faire leur fond de commerce. 42 euros, vous vous rendez compte ? Avec cette somme, je pourrais profiter d'un buffet à volonté de saumon et de homard au Wynn à Las Vegas, savourer un repas gastronomique dans le quartier le plus branché de Pékin tout en prenant 500 photos magnifiques, ou déguster deux cafés viennois raffinés, délicieux et mondialement réputés dans le meilleur café de Séoul. Mais dans ce soi-disant ""café des célébrités"", tout ce que vous récoltez, c'est des boissons diluées, à bas coût, et un service qui vous pousse à partir, à payer vite fait, sans aucune considération pour vos besoins. Proust, Gide, Sartre, Hemingway, Picasso, Beauvoir, ils sont tous devenus votre business. Vous ne montrez aucun respect pour leur héritage spirituel.",2,1,,,,1.0,1.0,1.0,[''],2025-01-01,
-99,La déception a été totale en voyant deux petits souris à l'étage. Je suis désolé qu'un café historique se laisse dans un état lamentable.,19,1,,,,1.0,3.0,1.0,[''],2026-02-16,
+pas souriants …",20,2,,,,,,,[''],2026-01-01,
+67,"Cuisine assez bonne, j’ai goûté un pain aux raisins et un chocolat chaud mais le prix est insensé, 15,50€ pour ça c’est tout bonnement honteux.
+De plus le serveur oblige de prendre au moins 1 consommation par personne pour …",4,1,,,,,,,[''],2025-09-01,

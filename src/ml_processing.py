@@ -25,9 +25,7 @@ import umap.umap_ as umap
 
 import plotly.express as px
 
-# Download NLTK stopwords and lexicon
-nltk.download('stopwords')
-nltk.download('vader_lexicon')
+
 
 # Clean text, stopworks and tokenize words
 def clean_text(text):

@@ -288,12 +288,13 @@ Intégration Continue avec tests automatisés
 
 📌 Améliorations Futures
 
-Ajout d’un dashboard Streamlit
 
-Déploiement cloud (AWS / Azure)
 
-Push automatique des images Docker en CI
+- Déploiement cloud (AWS / Azure)
+ajouter plus de metrique de controle de modeles, avec un seuil doutliers  a definir 
 
-Rapport de couverture des tests
+- Push automatique des images Docker en CI
 
-Monitoring (Prometheus)
+- Rapport de couverture des tests
+
+- Monitoring (Prometheus)

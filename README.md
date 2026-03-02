@@ -1,65 +1,52 @@
-# 📊 Trust Pilot Reviews – MLOps Microservices Architecture
+# 📊 Trust Pilot Reviews – Architecture Microservices MLOps
 
-## 📖 Project Overview
+## 📖 Présentation du Projet
 
-This project aims to provide a simple, cost-effective solution for small online stores and startups to analyze customer reviews. The main goal is to extract insights from customer feedback that will help these businesses improve their products and services. By using Python tools and machine learning, this project helps to classify customer sentiment (positive, neutral, negative) and presents these insights in an easy-to-read dashboard using Streamlit.
+Ce projet vise à fournir une solution simple et économique permettant aux petites boutiques en ligne et aux startups d’analyser les avis clients.
 
-## Problem Statement
-Small commerce businesses often lack the resources to conduct in-depth analysis of customer reviews. Understanding customer satisfaction through reviews can be crucial for product and service improvements. This project addresses this need by delivering a solution that is both accessible and scalable, allowing small businesses to efficiently analyze customer sentiment without the need for extensive technical knowledge or expensive tools.
+L’objectif principal est d’extraire des informations pertinentes à partir des retours clients afin d’aider ces entreprises à améliorer leurs produits et services.  
 
-## Technologies
-- **Selenium**: Used for scraping customer reviews from online stores.
-- **CSV/Google Drive**: Data storage in CSV format, either locally or in Google Drive.
-- **pandas**: Used for cleaning and processing the text data.
-- **scikit-learn**: Implements a simple machine learning model for sentiment analysis.
-- **streamlit**: Displays the results in an accessible and interactive dashboard.
-
-![Preview of the dashboard](img/complete_flow.png)
-
-This project is a complete **microservices-based Machine Learning pipeline** designed to help small commerce businesses analyze customer reviews.
-
-It allows businesses to:
-
-- Scrape Google Maps reviews  
-- Clean and preprocess textual data  
-- Perform Sentiment Analysis  
-- Extract Topics (LDA)  
-- Track experiments with MLflow  
-- Orchestrate the pipeline with Airflow  
-
-The system is fully containerized using Docker and orchestrated with Docker Compose.
+Grâce à des outils Python et au Machine Learning, le projet permet de classifier le sentiment des clients (positif, neutre, négatif) et de présenter ces résultats dans un tableau de bord clair et interactif avec Streamlit.
 
 ---
 
-# 🎯 Problem Statement
+## 🎯 Problématique
 
-Small commerce businesses often lack the resources to perform in-depth customer review analysis.
+Les petites entreprises commerciales manquent souvent de ressources pour réaliser une analyse approfondie des avis clients.
 
-Understanding customer satisfaction is crucial for improving products and services.  
-This project delivers a scalable and accessible solution that allows businesses to analyze customer sentiment without expensive tools or deep technical expertise.
+Comprendre la satisfaction client à travers les avis est pourtant essentiel pour améliorer les produits et services.
 
----
-
-# 🧠 Technologies Used
-
-- FastAPI
-- Docker
-- Docker Compose
-- MLflow
-- Apache Airflow
-- Pytest
-- GitHub Actions
-- Selenium
-- Pandas
-- Scikit-learn
-- NLTK
-- Gensim (LDA)
+Ce projet répond à ce besoin en proposant une solution accessible, scalable et automatisée, permettant d’analyser efficacement les sentiments sans nécessiter d’outils coûteux ou de compétences techniques avancées.
 
 ---
 
-# 🏗️ Global Architecture
+## 🧠 Technologies Utilisées
 
-## 🔁 Data Pipeline Flow
+- **Selenium** : scraping des avis Google Maps  
+- **CSV / Google Drive** : stockage des données  
+- **Pandas** : nettoyage et traitement des données  
+- **Scikit-learn** : modèle de classification des sentiments  
+- **Streamlit** : visualisation interactive  
+- **FastAPI**
+- **Docker**
+- **Docker Compose**
+- **MLflow**
+- **Apache Airflow**
+- **Pytest**
+- **GitHub Actions**
+- **NLTK**
+- **Gensim (LDA)**
+
+---
+
+![Aperçu du Dashboard](img/complete_flow.png)
+
+---
+
+# 🏗️ Architecture Globale
+
+## 🔁 Flux du Pipeline
+
 
 Scraper → Cleaning → ML (Sentiment + Topics)
 ↓
@@ -70,40 +57,41 @@ Airflow
 
 ---
 
-## 🧩 Microservices Overview
+## 🧩 Vue des Microservices
 
-### 1️⃣ Scraper Service
-- Collects Google Maps reviews
-- Built with Selenium
-- Exposes a FastAPI endpoint
+### 1️⃣ Service Scraper
+- Collecte des avis Google Maps
+- Basé sur Selenium
+- Expose une API FastAPI
 
-### 2️⃣ Cleaning Service
-- Cleans and structures raw data
-- Uses Pandas
-- Saves processed CSV files
+### 2️⃣ Service Cleaning
+- Nettoyage et structuration des données
+- Utilise Pandas
+- Sauvegarde des fichiers CSV traités
 
-### 3️⃣ ML Service
-- Performs:
-  - Sentiment Analysis
+### 3️⃣ Service ML
+- Réalise :
+  - Analyse de sentiment
   - Topic Modeling (LDA)
-- Logs experiments into MLflow
+- Enregistre les expériences dans MLflow
 
 ### 4️⃣ MLflow
-Tracks:
+Permet de suivre :
 - Accuracy
-- Parameters
+- Paramètres
 - Artifacts
 - Topics
 
 ### 5️⃣ Airflow
-Orchestrates:
-- run_scraper
-- run_cleaning
-- run_ml
+Orchestre :
+- `run_scraper`
+- `run_cleaning`
+- `run_ml`
 
 ---
 
-# 📂 Project Structure
+# 📂 Structure du Projet
+
 
 trust-pilot-reviews/
 │
@@ -127,13 +115,13 @@ trust-pilot-reviews/
 └── .github/workflows/ci.yml
 
 
-All services:
+Tous les services :
 
-- Have their own Dockerfile  
-- Have isolated dependencies  
-- Share data via Docker volumes  
+- Possèdent leur propre Dockerfile  
+- Ont des dépendances isolées  
+- Partagent les données via des volumes Docker  
 
-Shared folders:
+Dossiers partagés :
 
 
 data/
@@ -141,172 +129,171 @@ data/
 └── processed/
 
 
-
 ---
 
-# 🐳 Running the Project
+# 🐳 Lancement du Projet
 
-## 🔹 Build and Start All Services
+## 🔹 Construction et démarrage des services
 
 ```bash
 docker compose up --build
 ```
 
-🌐 Service Endpoints
+🌐 Endpoints des Services
+Service	URL
+Scraper	http://localhost:8001
 
-| Service  | URL                                            |
-| -------- | ---------------------------------------------- |
-| Scraper  | [http://localhost:8001](http://localhost:8001) |
-| Cleaning | [http://localhost:8002](http://localhost:8002) |
-| ML       | [http://localhost:8003](http://localhost:8003) |
-| MLflow   | [http://localhost:5000](http://localhost:5000) |
-| Airflow  | [http://localhost:8080](http://localhost:8080) |
+Cleaning	http://localhost:8002
 
+ML	http://localhost:8003
 
-🧹 Scraper Service
-Endpoint :POST /scrape
+MLflow	http://localhost:5000
 
-Request Body
+Airflow	http://localhost:8080
 
+🧹 Service Scraper
+Endpoint : POST /scrape
+Body de la requête
 {
   "url": "https://www.google.com/maps/place/Caf%C3%A9+de+Flore/@48.8541623,2.3300297,16z/data=!4m8!3m7!1s0x47e671d781fb9dab:0x18bba6dd45e173ff!8m2!3d48.8541588!4d2.3326046!9m1!1b1!16zL20vMDhkeXY4?entry=ttu&g_ep=EgoyMDI2MDIyMy4wIKXMDSoASAFQAw%3D%3D",
   "name": "cafe_de_flore",
   "max_reviews": 100
 }
-
-
-🧼 Cleaning Service
-Endpoint : POST /clean
-
-Request Body
-
+🧼 Service Cleaning
+Endpoint
+POST /clean
+Body de la requête
 {
   "name": "cafe_de_flore",
   "plot": false
 }
+🤖 Service ML
+Endpoint
+POST /sentiment
 
-This performs:
+Ce service réalise :
 
-- Sentiment Analysis
+Analyse de sentiment
 
-- Topic Modeling (LDA)
+Topic Modeling (LDA)
 
-- Logs metrics into MLflow
+Enregistrement des métriques dans MLflow
 
 📊 MLflow
 
+Accès :
+
 http://localhost:5000
 
-You can monitor:
+Suivi disponible :
 
-- Experiments
+Expériences
 
-- Runs
+Runs
 
-- Metrics
+Métriques
 
-- Parameters
+Paramètres
 
-- Artifacts
+Artifacts
 
-🔄 Airflow Orchestration
+🔄 Orchestration avec Airflow
 
-Access:
+Accès :
 
 http://localhost:8080
 
-Default credentials:
+Identifiants par défaut :
 
-Username: admin
+Username : admin
 
-Password: admin
+Password : admin
 
-DAG Name:
+Nom du DAG :
 
 microservices_pipeline
 
-Execution Flow:
+Flux d’exécution :
 
 run_scraper → run_cleaning → run_ml
 
-Manual trigger:
+Déclenchement manuel :
 
-Open Airflow UI
+Ouvrir l’interface Airflow
 
-Activate DAG
+Activer le DAG
 
-Click "Trigger DAG"
+Cliquer sur "Trigger DAG"
 
-Airflow automatically calls each FastAPI microservice.
+Airflow appelle automatiquement chaque microservice FastAPI.
 
-🧪 Running Tests
+🧪 Exécution des Tests
 
-Install dev dependencies:
+Installation des dépendances :
 
 pip install -r requirements-dev.txt
 
-Run tests:
+Lancement des tests :
 
 pytest
 
-Tests include:
+Les tests couvrent :
 
-Input validation
+Validation des entrées
 
-Endpoint status checks
+Vérification des statuts HTTP
 
-Basic API behavior
-
+Comportement basique des API
 
 ⚙️ CI – GitHub Actions
 
-On every push to main:
+À chaque push sur main :
 
-Python environment is created
+Environnement Python créé automatiquement
 
-Dependencies are installed
+Installation des dépendances
 
-Tests are executed automatically
+Exécution automatique des tests
 
-Workflow file:
+Fichier workflow :
 
 .github/workflows/ci.yml
 
-If tests fail → Build fails
-If tests pass → Build succeeds
+Si les tests échouent → ❌ Build échoue
+Si les tests réussissent → ✅ Build validé
 
-🗂️ Data Flow
-Google Maps Reviews
+🗂️ Flux des Données
+Avis Google Maps
         ↓
-Raw JSON (data/raw/)
+Données brutes (data/raw/)
         ↓
-Cleaned CSV (data/processed/)
+CSV nettoyés (data/processed/)
         ↓
 Sentiment + Topics
         ↓
-MLflow Tracking
-🏆 Project Highlights
+Suivi via MLflow
+🏆 Points Forts du Projet
 
-Microservices architecture
+Architecture microservices
 
-End-to-end ML pipeline
+Pipeline ML de bout en bout
 
-Experiment tracking with MLflow
+Suivi des expériences avec MLflow
 
-Workflow orchestration with Airflow
+Orchestration avec Airflow
 
-Fully containerized system
+Système entièrement containerisé
 
-CI with automated tests
+Intégration Continue avec tests automatisés
 
-📌 Future Improvements
+📌 Améliorations Futures
 
-Add Streamlit dashboard
+Ajout d’un dashboard Streamlit
 
-Cloud deployment (AWS / Azure)
+Déploiement cloud (AWS / Azure)
 
-Docker image push in CI
+Push automatique des images Docker en CI
 
-Coverage report
+Rapport de couverture des tests
 
 Monitoring (Prometheus)

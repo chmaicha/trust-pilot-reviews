@@ -1,10 +1,8 @@
 # 📊 Trust Pilot Reviews – MLOps Microservices Architecture
 
-## 🚀 Overview
+## 📖 Project Overview
 
 This project aims to provide a simple, cost-effective solution for small online stores and startups to analyze customer reviews. The main goal is to extract insights from customer feedback that will help these businesses improve their products and services. By using Python tools and machine learning, this project helps to classify customer sentiment (positive, neutral, negative) and presents these insights in an easy-to-read dashboard using Streamlit.
-
- **microservices architecture powered by Docker**.
 
 ## Problem Statement
 Small commerce businesses often lack the resources to conduct in-depth analysis of customer reviews. Understanding customer satisfaction through reviews can be crucial for product and service improvements. This project addresses this need by delivering a solution that is both accessible and scalable, allowing small businesses to efficiently analyze customer sentiment without the need for extensive technical knowledge or expensive tools.
@@ -16,203 +14,96 @@ Small commerce businesses often lack the resources to conduct in-depth analysis 
 - **scikit-learn**: Implements a simple machine learning model for sentiment analysis.
 - **streamlit**: Displays the results in an accessible and interactive dashboard.
 
-## Project Phases
-1. **Data Collection (raw and with Scraping)**: Reviews will be collected from online stores using Python's Scrapy framework and stored in CSV format.
-2. **Data Cleaning**: The raw data will be saved in CSV files locally or in Google Drive.
-3. **Sentiment Analysis**: The data will be processed using pandas to clean and prepare it for machine learning analysis.  A machine learning model, implemented in scikit-learn, will classify reviews as positive, neutral, or negative.
-4. **Data Visualization**: The results of the analysis will be displayed with a streamlit app for easy interpretation and insights.
+![Preview of the dashboard](img/complete_flow.png)
 
+This project is a complete **microservices-based Machine Learning pipeline** designed to help small commerce businesses analyze customer reviews.
 
-The pipeline includes:
+It allows businesses to:
 
-1. **Scraper Service** – Collects reviews from Google Maps  
-2. **Cleaning Service** – Cleans and structures raw data  
-3. **ML Sentiment Service** – Performs NLP, embeddings, clustering & topic modeling  
-4. **API Service (FastAPI)** – Exposes the pipeline via HTTP  
-5. **Streamlit Service** – Provides an interactive dashboard  
-
-![Preview of the flow](img/embeddings_flow.png)
-
-
-This architecture follows modern **MLOps principles**:
-
-- Containerized services  
-- Isolated dependencies  
-- Reproducible environments  
-- Volume-based data exchange  
-- Service modularity  
-- Ready for orchestration (Docker Compose / Kubernetes)  
-
----
-
-# 🏗 Architecture Overview
-
-               ┌─────────────────┐
-               │   Scraper       │
-               │  (Selenium)     │
-               └────────┬────────┘
-                        │
-                        ▼
-                data/raw/*.csv
-                        │
-                        ▼
-               ┌─────────────────┐
-               │   Cleaning      │
-               │  (Pandas)       │
-               └────────┬────────┘
-                        │
-                        ▼
-             data/processed/*_reviews.csv
-                        │
-                        ▼
-               ┌─────────────────┐
-               │  ML Sentiment   │
-               │ (NLP + ML)      │
-               └────────┬────────┘
-                        │
-                        ▼
-    *_ml_processed_reviews.csv
-    *_sample_selected_reviews.csv
-                        │
-                        ▼
-               ┌─────────────────┐
-               │  Streamlit App  │
-               └─────────────────┘
-
-
-All services share a mounted Docker volume:
-
-```bash
--v ${PWD}/data:/app/data
-
-TRUST-PILOT-REVIEWS/
-│
-├── services/
-│   ├── scraper/        # Selenium scraping service
-│   ├── cleaning/       # Data preprocessing service
-│   ├── ml/             # Sentiment + NLP service
-│   ├── api/            # FastAPI service
-│   ├── streamlit/      # Dashboard
-│   └── docker-compose.yml
-│
-├── src/                # Core business logic
-│
-├── data/
-│   ├── raw/
-│   └── processed/
- 
-```
-Each service has:
-
-Its own Dockerfile
-
-Its own requirements.txt
-
-Isolated dependency scope
-
-
-                ┌────────────┐
-Client ───────► │   API      │
-                └─────┬──────┘
-                      │
-     ┌────────────────┼────────────────┐
-     ▼                ▼                ▼
- Scraper API     Cleaning API     ML API
-
-
- # 🍽️ MLOps Restaurant Reviews Pipeline
-
-Ce projet est une architecture microservices permettant de :
-
-1. Scraper des avis Google Maps
-2. Nettoyer les données
-3. Appliquer un pipeline ML (sentiment, embeddings, clustering, topics)
-
-Architecture :
-
-Scraper → Cleaning → ML (Sentiment & Topics)
-
-Tous les services sont dockerisés et orchestrés avec Docker Compose.
-
----
-
-# 📦 Architecture
-
-services/
-├── scraper/
-├── cleaning/
-├── ml/
-src/
-├── scraper.py
-├── run_cleaning.py
-├── sentiment.py
-data/
-├── raw/
-├── processed/
-
-Les dossiers `data/raw` et `data/processed` sont partagés entre services via volumes Docker.
-
----
-
-# 🚀 Lancement global
-
-```bash
-docker compose up --build
-
-
-Airflow
-   ↓
-Scraper container
-   ↓
-Cleaning container
-   ↓
-ML container (run_sentiment)
-   ↓
-MLflow
-
-
-scraper (8001)
-cleaning (8002)
-ml (8003)
-mlflow (5000)
-airflow (8080)
-
-
-
-
-# 🚀 Trust Pilot Reviews – Microservices ML Pipeline
-
-## 📖 Project Overview
-
-This project is a complete microservices-based data pipeline that:
-
-1. Scrapes Google Maps reviews
-2. Cleans and preprocesses text data
-3. Applies Machine Learning:
-   - Sentiment Analysis
-   - Topic Modeling (LDA)
-4. Tracks experiments with MLflow
-5. Orchestrates the pipeline with Airflow
-6. Includes CI with GitHub Actions
+- Scrape Google Maps reviews  
+- Clean and preprocess textual data  
+- Perform Sentiment Analysis  
+- Extract Topics (LDA)  
+- Track experiments with MLflow  
+- Orchestrate the pipeline with Airflow  
 
 The system is fully containerized using Docker and orchestrated with Docker Compose.
 
 ---
 
-# 🏗️ Architecture
+# 🎯 Problem Statement
 
+Small commerce businesses often lack the resources to perform in-depth customer review analysis.
+
+Understanding customer satisfaction is crucial for improving products and services.  
+This project delivers a scalable and accessible solution that allows businesses to analyze customer sentiment without expensive tools or deep technical expertise.
+
+---
+
+# 🧠 Technologies Used
+
+- FastAPI
+- Docker
+- Docker Compose
+- MLflow
+- Apache Airflow
+- Pytest
+- GitHub Actions
+- Selenium
+- Pandas
+- Scikit-learn
+- NLTK
+- Gensim (LDA)
+
+---
+
+# 🏗️ Global Architecture
+
+## 🔁 Data Pipeline Flow
 
 Scraper → Cleaning → ML (Sentiment + Topics)
 ↓
-MLflow (Experiment Tracking)
+MLflow
 ↓
-Airflow (Pipeline Orchestration)
+Airflow
 
 
 ---
 
-# 📂 Project Structure
+## 🧩 Microservices Overview
 
+### 1️⃣ Scraper Service
+- Collects Google Maps reviews
+- Built with Selenium
+- Exposes a FastAPI endpoint
+
+### 2️⃣ Cleaning Service
+- Cleans and structures raw data
+- Uses Pandas
+- Saves processed CSV files
+
+### 3️⃣ ML Service
+- Performs:
+  - Sentiment Analysis
+  - Topic Modeling (LDA)
+- Logs experiments into MLflow
+
+### 4️⃣ MLflow
+Tracks:
+- Accuracy
+- Parameters
+- Artifacts
+- Topics
+
+### 5️⃣ Airflow
+Orchestrates:
+- run_scraper
+- run_cleaning
+- run_ml
+
+---
+
+# 📂 Project Structure
 
 trust-pilot-reviews/
 │
@@ -236,53 +127,59 @@ trust-pilot-reviews/
 └── .github/workflows/ci.yml
 
 
+All services:
+
+- Have their own Dockerfile  
+- Have isolated dependencies  
+- Share data via Docker volumes  
+
+Shared folders:
+
+
+data/
+├── raw/
+└── processed/
+
+
+
 ---
 
-# 🐳 Running the Project (Docker)
+# 🐳 Running the Project
 
-## 🔹 1️⃣ Build and start all services
+## 🔹 Build and Start All Services
 
 ```bash
 docker compose up --build
+```
+
 🌐 Service Endpoints
-Service	URL
-Scraper	http://localhost:8001
 
-Cleaning	http://localhost:8002
+| Service  | URL                                            |
+| -------- | ---------------------------------------------- |
+| Scraper  | [http://localhost:8001](http://localhost:8001) |
+| Cleaning | [http://localhost:8002](http://localhost:8002) |
+| ML       | [http://localhost:8003](http://localhost:8003) |
+| MLflow   | [http://localhost:5000](http://localhost:5000) |
+| Airflow  | [http://localhost:8080](http://localhost:8080) |
 
-ML	http://localhost:8003
 
-MLflow	http://localhost:5000
-
-Airflow	http://localhost:8080
 🧹 Scraper Service
-Endpoint
-POST /scrape
-Example Request
+Endpoint :POST /scrape
+
+Request Body
+
 {
-  "url": "https://google-maps-url",
-  "name": "restaurant_name",
+  "url": "https://www.google.com/maps/place/Caf%C3%A9+de+Flore/@48.8541623,2.3300297,16z/data=!4m8!3m7!1s0x47e671d781fb9dab:0x18bba6dd45e173ff!8m2!3d48.8541588!4d2.3326046!9m1!1b1!16zL20vMDhkeXY4?entry=ttu&g_ep=EgoyMDI2MDIyMy4wIKXMDSoASAFQAw%3D%3D",
+  "name": "cafe_de_flore",
   "max_reviews": 100
 }
-Example using curl
-curl -X POST http://localhost:8001/scrape \
--H "Content-Type: application/json" \
--d '{
-  "url": "https://google-maps-url",
-  "name": "cafe_de_flore",
-  "max_reviews": 50
-}'
+
+
 🧼 Cleaning Service
-Endpoint
-POST /clean
-Body
-{
-  "name": "cafe_de_flore"
-}
-🤖 ML Service
-Endpoint
-POST /sentiment
-Body
+Endpoint : POST /clean
+
+Request Body
+
 {
   "name": "cafe_de_flore",
   "plot": false
@@ -290,55 +187,57 @@ Body
 
 This performs:
 
-Sentiment Analysis
+- Sentiment Analysis
 
-Topic Modeling (LDA)
+- Topic Modeling (LDA)
 
-Logs metrics into MLflow
+- Logs metrics into MLflow
 
 📊 MLflow
-Access
+
 http://localhost:5000
-What You Can See
 
-Experiments
+You can monitor:
 
-Runs
+- Experiments
 
-Metrics
+- Runs
 
-Parameters
+- Metrics
 
-Artifacts
+- Parameters
 
-Example logged:
-
-Sentiment accuracy
-
-Topic keywords
+- Artifacts
 
 🔄 Airflow Orchestration
-Access
+
+Access:
+
 http://localhost:8080
 
 Default credentials:
 
 Username: admin
+
 Password: admin
-DAG Name
+
+DAG Name:
+
 microservices_pipeline
-Execution Flow
+
+Execution Flow:
+
 run_scraper → run_cleaning → run_ml
 
-To trigger manually:
+Manual trigger:
 
-Go to Airflow UI
+Open Airflow UI
 
 Activate DAG
 
 Click "Trigger DAG"
 
-Airflow calls each FastAPI microservice automatically.
+Airflow automatically calls each FastAPI microservice.
 
 🧪 Running Tests
 
@@ -354,9 +253,10 @@ Tests include:
 
 Input validation
 
-Endpoint response status
+Endpoint status checks
 
 Basic API behavior
+
 
 ⚙️ CI – GitHub Actions
 
@@ -364,79 +264,49 @@ On every push to main:
 
 Python environment is created
 
-Dependencies installed
+Dependencies are installed
 
-Tests executed automatically
+Tests are executed automatically
 
 Workflow file:
 
 .github/workflows/ci.yml
 
-If tests fail → Build fails ❌
-If tests pass → Build succeeds ✅
-
-🧠 Technologies Used
-
-FastAPI
-
-Docker
-
-Docker Compose
-
-MLflow
-
-Apache Airflow
-
-Pytest
-
-GitHub Actions
-
-NLTK
-
-Gensim (LDA)
-
-Scikit-learn
+If tests fail → Build fails
+If tests pass → Build succeeds
 
 🗂️ Data Flow
 Google Maps Reviews
-↓
+        ↓
 Raw JSON (data/raw/)
-↓
+        ↓
 Cleaned CSV (data/processed/)
-↓
+        ↓
 Sentiment + Topics
-↓
+        ↓
 MLflow Tracking
-🎯 How to Run Entire Pipeline (Full Demo)
-
-Start services
-
-docker compose up --build
-
-Go to Airflow
-→ Trigger microservices_pipeline
-
-Monitor logs in Airflow
-
-View experiment results in MLflow
-
 🏆 Project Highlights
 
-✔ Microservices architecture
-✔ End-to-end ML pipeline
-✔ Experiment tracking
-✔ Workflow orchestration
-✔ Containerized system
-✔ CI with automated tests
+Microservices architecture
+
+End-to-end ML pipeline
+
+Experiment tracking with MLflow
+
+Workflow orchestration with Airflow
+
+Fully containerized system
+
+CI with automated tests
 
 📌 Future Improvements
 
 Add Streamlit dashboard
 
-Deploy on cloud (AWS / Azure)
+Cloud deployment (AWS / Azure)
 
-Add Docker image push in CI
+Docker image push in CI
 
-Add coverage report
+Coverage report
 
-Add monitoring (Prometheus)
+Monitoring (Prometheus)

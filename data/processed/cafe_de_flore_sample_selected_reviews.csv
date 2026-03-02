@@ -1,11 +1,5 @@
 review_id,review,local_guide_reviews,rating_score,service,meal_type,price_per_person_category,food_score,service_score,atmosphere_score,recommendations_list,date,avg_price_per_person,cleaned_review,vader_sentiment,sentiment_label,embedding,pca_cluster,umap_cluster,month,year,total_score,sample_type
-,"Cuisine assez bonne, j’ai goûté un pain aux raisins et un chocolat chaud mais le prix est insensé, 15,50€ pour ça c’est tout bonnement honteux.
-De plus le serveur oblige de prendre au moins 1 consommation par personne pour …",,1,,,,,,,,,,,,,,,,2025-09,,,low_score_reviews
 ,"Bar / snacking / restauration situé en plein coeur de Paris à Saint Germain.
 Si le cadre est sympa et original, les prix pour un touriste lambda sont dissuasifs : 5€50 le café, 8€50 une limonade....etc. …",,3,,,,,,,,,,,,,,,,2025-12,,,low_score_reviews
-,"Lieu historique et symbolique mais qui n'a plus grand chose à voir avec ce que devait être un café littéraire de l'époque: hyper fréquenté, hyper touristique et hyper cher. Un croque-monsieur tout à fait quelconque, salade sans sauce, 3 …",,3,,,,,,,,,,,,,,,,2025-12,,,low_score_reviews
 ,"Lieu emblématique de Paris, à la décoration très traditionnelle qui en fait son charme.
 Par contre j’étais venu pour le chocolat chaud, classé comme un des meilleurs de …",,2,,,,,,,,,,,,,,,,2025-12,,,low_score_reviews
-,"Très mauvaise expérience !!!!
-Nous nous sommes rendus au Café de Flore pour déjeuner en famille, mais l’accueil a été particulièrement décevant. La placeuse nous a immédiatement demandé de …",,1,,,,,,,,,,,,,,,,2025-12,,,low_score_reviews
-,"Honteuse façon de traiter la clientèle. Au delà de leur attitude aigris, ils sont malpolis. On a laissé passer 3 serveurs dans les escaliers, pas un d’eux ne nous a dit merci. Il devrait tous aller prendre une petite leçon de savoir vivre.",,2,,,,,,,,,,,,,,,,2025-12,,,low_score_reviews
